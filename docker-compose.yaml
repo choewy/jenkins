@@ -6,7 +6,6 @@ services:
     image: jenkins/jenkins:lts
     volumes:
       - .jenkins/home:/var/jenkins_home
-      - .jenkins/run:/var/run:ro
     ports:
       - 8081:8080
     privileged: true
