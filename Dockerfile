@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 
-EXPOSE 8080 5000
+EXPOSE 8080
 
 ARG privileged=true
 
